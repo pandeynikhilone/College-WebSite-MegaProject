@@ -1,4 +1,6 @@
+/* performed import for font import for font poppins */
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     text-decoration: none;
     box-sizing: border-box;
@@ -7,6 +9,7 @@
     padding: 0; 
 }
 
+/* styling on body tag  */
 body {
     width: 100%;
     margin: 0;
@@ -15,6 +18,7 @@ body {
     overflow-x: hidden; 
 }
 
+/* line appearing top pannel of navigation bar  */
 .update {
     margin: 0;
     position: inherit;
@@ -27,11 +31,13 @@ body {
     padding-top: 8px;
 }
 
+/* class that will specifically selects a word from an update line to perform css  */
 .new-text {
     color: #e8546b;
     text-transform: bold;
 }
 
+/* class navbar has div, that is parent tag of all tags present under it  */
 .navbar {
     position: relative;
     top: 35px;
@@ -45,10 +51,12 @@ body {
     justify-content: space-around;
 }
 
+/* navdiv contains logo and npgc text  */
 .nav-menu span{
     font-weight: 300;
 }
 
+/* Styles for the navigation div */
 .navdiv {
     position: relative;
     display: flex;
@@ -56,10 +64,12 @@ body {
     width: 100%;
 }
 
+/* Styles for the logo image */
 .image {
     width: 100px;
 }
 
+/* Styles for the logo container */
 .logo {
     display: grid;
     position: relative;
@@ -67,7 +77,7 @@ body {
     align-items: center;
 }
 
-
+/* Styles for the logo text link */
 .logo a {
     font-size: 30px;
     font-family: poppins;
@@ -76,17 +86,20 @@ body {
     margin-right: auto;
 }
 
+/* Styles for the unordered list */
 ul {
     margin: 0 20px;
     padding: 0; 
 }
 
+/* Styles for list items */
 li {
     list-style: none;
     margin: 8px;
     display: inline-block;
 }
 
+/* Styles for list item links */
 li a {
     color: #1d2323;
     font-size: 18px;
@@ -94,6 +107,7 @@ li a {
     margin-right: 25px;
 }
 
+/* Styles for buttons */
 button {
     background-color: black;
     margin-left: 10px;
@@ -102,60 +116,68 @@ button {
     width: 90px;
 }
 
+/* Styles for button links */
 button a {
     color: white;
     font-weight: bold;
     font-size: 15px;
 }
 
+/* Styles for icons */
 i {
     position: relative;
     right: 35px;
 }
 
+/* Styles for special icons */
 .special-icons {
     margin: 10px;
     position: relative;
     left: 25px;
 }
 
-.fa-angle-down{
+/* Styles for the down-angle icon */
+.fa-angle-down {
     left: -25px;
 }
 
-/*Hover effects to nav bar*/
-
-a > span:hover{
+/* Hover effects for nav bar links */
+a > span:hover {
     color: #4d859c;
 }
 
-.main{
+/* Styles for the main section grid */
+.main {
     display: grid;
     grid-template-columns: 2fr 3fr;
 }
 
-.heading{
+/* Styles for the heading */
+.heading {
     margin-top: 100px;
     display: grid;
-    grid-template-columns:100px 200px 200px;
+    grid-template-columns: 100px 200px 200px;
     font-size: 45px;
     position: relative;
     z-index: -1;
     margin-left: 135px;
 }
 
-.heading h2{
+/* Styles for the heading's h2 element */
+.heading h2 {
     display: grid;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
     grid-template-columns: max-content;
 }
 
-#resources{
+/* Styles for the resources section */
+#resources {
     display: block;
     color: #2f8380;
 }
 
-.illustration-image{
+/* Styles for the illustration image */
+.illustration-image {
     display: inherit;
     width: 534.54px;
     height: 310px;
@@ -166,7 +188,8 @@ a > span:hover{
     grid-row-end: 6;
 }  
 
-.side-image{
+/* Styles for the side image */
+.side-image {
     background-position: bottom right;
     display: grid; 
     width: 30px;
@@ -175,7 +198,8 @@ a > span:hover{
     grid-template-columns: 200px 70px;
 }
 
-.para{
+/* Styles for paragraphs */
+.para {
     display: grid;
     grid-template-columns: 750px;
     align-items: center;
@@ -183,14 +207,19 @@ a > span:hover{
     margin-right: 470px;
     margin-top: 50px;
     font-size: 22px;
-    font-family: Poppins;
-    q{
-        font-weight: 400;
-    }
-    strong{ font-weight: 490;}
+    font-family: 'Poppins', sans-serif;
 }
 
-.box{
+/* Styles for nested elements within paragraphs */
+.para q {
+    font-weight: 400;
+}
+.para strong {
+    font-weight: 490;
+}
+
+/* Styles for the box */
+.box {
     width: 369px;
     position: relative;
     z-index: -1;
@@ -202,7 +231,8 @@ a > span:hover{
     border-radius: 25px 0px 0px 25px;
 }
 
-.more-on-button{
+/* Styles for the "more on" button */
+.more-on-button {
     width: 252px;
     height: 45px;
     flex-shrink: 0;
@@ -218,9 +248,10 @@ a > span:hover{
     margin-top: 50px;
 }
 
-.read-text{
+/* Styles for the "read more" text */
+.read-text {
     color: #F2F2F2;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     padding: 1em;
@@ -234,6 +265,7 @@ a > span:hover{
     padding-top: 11px;
     padding-left: 1px;
 }
+
 
 .fa-angles-right{
     position: relative;
@@ -351,7 +383,8 @@ a > span:hover{
     margin-top: 1.5rem;
 }
 
-.block-text{
+/* Styles for the text inside a block */
+.block-text {
     color: #1E2423;
     font-size: 21px;
     font-weight: 700;
@@ -362,7 +395,8 @@ a > span:hover{
     left: 12px;
 }
 
-.block-sem-para{
+/* Styles for the paragraph inside a block */
+.block-sem-para {
     width: 453px;
     color: #1E2423;
     font-size: 19px;
@@ -371,7 +405,8 @@ a > span:hover{
     margin-top: 44px;
 }
 
-.share-notes{
+/* Styles for the share notes section */
+.share-notes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -382,23 +417,27 @@ a > span:hover{
     background: #2F8481;
 }
 
-.share-notes-heading{
+/* Styles for the heading in the share notes section */
+.share-notes-heading {
     color: #FFF;
     font-size: 36px;
     font-weight: 700;
 }
 
-.update-button-color{
+/* Styles for the update button in the share notes section */
+.update-button-color {
     background-color: #f2f2f2;
     margin-top: 25px;
 }
 
+/* Styles for the share notes icon */
 .icon-share-notes {
-    opacity: 192%;
+    opacity: 1.92; /* Use a decimal value for opacity (0 to 1) */
     color: #2F8481;
 }
 
-.text-share-notes{
+/* Styles for the text in the share notes section */
+.text-share-notes {
     color: #2F8481;
     font-size: 16px;
     font-weight: 300;
@@ -406,7 +445,8 @@ a > span:hover{
     margin-top: -2px;
 }
 
-.footer{
+/* Styles for the footer */
+.footer {
     width: 100%;
     height: 595px;
     background: #1E2423;
@@ -416,9 +456,10 @@ a > span:hover{
     padding-left: 193px;
 }
 
-div.font-flavor ul li a{
+/* Styles for the footer links */
+div.font-flavor ul li a {
     color: #F2F2F2;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
@@ -427,25 +468,29 @@ div.font-flavor ul li a{
     list-style-type: none;
 }
 
-.font-flavor ul li{
+/* Styles for the footer list items */
+.font-flavor ul li {
     display: flex;
     flex-direction: column;
 }
 
-.li-quick-links{
+/* Styles for the quick links in the footer */
+.li-quick-links {
     color: #F2F2F2;
     font-size: 17px;
     font-weight: 300;
     line-height: 48px;
 }
 
-.horizontal-line{
+/* Styles for the horizontal line in the footer */
+.horizontal-line {
     position: relative;
     bottom: 9.063rem;
     left: 4.688rem;
 }
 
-.social-media{
+/* Styles for the social media icons in the footer */
+.social-media {
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -453,50 +498,30 @@ div.font-flavor ul li a{
     right: 112px;
 }
 
-.fa-x-twitter, .fa-facebook, .fa-whatsapp, .fa-instagram {
+/* Styles for the social media icons */
+.fa-x-twitter,
+.fa-facebook,
+.fa-whatsapp,
+.fa-instagram {
     margin-right: 22px;
 }
 
+/* Hover effects for the social media icons */
 .fa-x-twitter:hover,
 .fa-facebook:hover,
 .fa-whatsapp:hover,
-.fa-instagram:hover{
-    color:#f2f2f2;
+.fa-instagram:hover {
+    color: #f2f2f2;
 }
 
-.right-arrow-sem-block-1{
-    position: relative;
-    left: 428px;
-    top: 24px;
-}
-
-.right-arrow-sem-block-2{
-    position: relative;
-    left: 419px;
-    top: 52px;
-}
-
-.right-arrow-sem-block-3{
+/* Styles for the right arrow in the semester blocks */
+.right-arrow-sem-block-1,
+.right-arrow-sem-block-2,
+.right-arrow-sem-block-3,
+.right-arrow-sem-block-4,
+.right-arrow-sem-block-5,
+.right-arrow-sem-block-6 {
     position: relative;
     left: 419px;
     top: 52px;
 }
-
-.right-arrow-sem-block-4{
-    position: relative;
-    left: 419px;
-    top: 52px;
-}
-
-.right-arrow-sem-block-5{
-    position: relative;
-    left: 419px;
-    top: 52px;
-}
-
-.right-arrow-sem-block-6{
-    position: relative;
-    left: 419px;
-    top: 52px;
-}
-
