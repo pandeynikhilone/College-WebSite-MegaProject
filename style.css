@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 .college-logo {
     height: 148px;
     width: 100%;
-    background: rgba(210, 25, 86, 0.80);
+    background-color: #a81445;
     display: flex;
     justify-content: center;
 }
@@ -223,6 +223,7 @@ a > span:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 35px;
 }
 
 .text_3 {
@@ -240,4 +241,67 @@ a > span:hover {
     font-size: 19px;
     font-weight: 400;
     width: 565px;
+    margin-top: 25px;
 }
+
+.semester-block {
+    width: 1146px;
+    height: 2085px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 13%;
+    margin-top: 45px;
+}
+
+.sem-1_img {
+    position: relative;
+    background-image: url(https://s3-alpha-sig.figma.com/img/33af/59e4/dd7b00e7e3434762e5c512405c2730ed?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ng-vc6IBh7G~CJZtmb9TmKFHToRSFnJ6sEy9cKmveQfZ7dKoz~a1PB~qUTxFbVP7CZA-EFX7ZII3P3LGygDBrj0FpsP99sz~NZNjlHkPVnqoA-58yxjNbHw10~ITz4Y1TXvhsF7l1GPNpJmU83JvPttD4D1P3SNPgIX6QhluE1rmVMxBWUBethpe-yMbM4fVSHy-xA~w~Gkl8LAnY7rB65V5E25KHc1GSOnesDHXBQQ3vkxC~oL0IVhdEWuTkdaD~XgnhXI~z9zfW6Ldb2Zg02ZI0ESfZqbHAj1kKm7G969mZRjHkCWK~TFGlY2zg8ENqYT5w4oSPvn8Tth5-jxW4A__);
+    background-size: 523px 414px;
+    background-repeat: no-repeat;
+    width: 523px;
+    height: 414px;
+    padding: 2rem;
+    border-radius: 26px;
+}
+
+.svg-icon {
+    position: absolute;
+    top: 1.4rem;
+    left: 60px;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.sem-1_text {
+    text-align: center;
+    margin-top: 6rem; 
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+}
+
+.text_5, .text_6 {
+    color: #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.47px;
+    position: relative;
+    padding-top: 0px;
+    bottom: 61px;
+    right: 11px;
+}
+
+.text_6 {
+    font-size: 19px;
+    font-weight: 400;
+    width: 453px;
+    text-align: justify;
+    position: relative;
+    bottom: 26px;
+}
+
