@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background: rgba(156, 175, 136, 0.91);
+}
+
+.update {
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    padding: 6px 504px 7px 505px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.text-new {
+    color: #E9556C;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.54px;
+    margin-right: 5px;
+}
+
+.update-text {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1.54px;
+}
+
+.college-logo {
+    height: 148px;
+    width: 100%;
+    background-color: #a81445;
+    display: flex;
+    justify-content: center;
+}
+
+.college-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+}
+
+.npgc-logo {
+    width: 163px;
+    height: 135px;
+}
+
+.Department-Logo {
+    width: 133px;
+    height: 102px;
+    margin-top: 19px;
+}
+
+.c-text-1 {
+    color: #FDDCDB;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+}
+
+.c-text-2, .c-text-3 {
+    color: #FDDCDB;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2.24px;
+    text-align: center;
+}
+
+.nav-menu span {
+    font-weight: 300;
+    color: #ffffff;
+}
+
+li {
+    list-style: none;
+    margin: 8px;
+    display: inline-block;
+}
+
+li a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0 20px;
+    padding: 0; 
+}
+
+li {
+    list-style: none;
+    margin: 8px;
+    display: inline-block;
+}
+
+li a {
+    color: #1d2323;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+i {
+    position: relative;
+    right: 25px;
+}
+
+.nav-menu li:hover .home-arrow, 
+.nav-menu li:hover .syllabus-arrow, 
+.nav-menu li:hover .study-material-arrow, 
+.nav-menu li:hover .youtube-lib-arrow,
+.nav-menu li:hover .handwritten-notes-arrow {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #2F8481;
+}
+
+a > span:hover {
+    color: #4d859c;
+}
+
+.nav-menu .home-arrow, 
+.nav-menu .syllabus-arrow, 
+.nav-menu .study-material-arrow, 
+.nav-menu .youtube-lib-arrow,
+.nav-menu .handwritten-notes-arrow {
+    color: #ffffff;
+}
+
+.navdiv {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    background: #8A2A2C;
+    align-items: center;
+}
+
+
+.home-page {
+   width: 1066px;
+   height: 2330px;
+   border-radius: 23px;
+   background: rgba(255, 255, 255, 0.31);
+   margin-left: 239px;
+   margin-top: 116px;
+}
+
+.book-name {
+    color: #1E2423;
+    font-size: 27px;
+    font-weight: 400;
+    position: relative;
+    top: 38px;
+    left: 70px;
+}
+
+
+.book-block {
+    position: relative;
+    justify-content: space-evenly;
+    top: 65px;
+    display: flex;
+}
+
+.book-image {
+    width: 201px;
+    height: 280px;
+    position: relative;
+    top: 29px;
+    bottom: 29px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: #F2F2F2;
+    width: 445px;
+    height: 338px;
+}
+
+.book-name-1 {
+    color: #000;
+    font-size: 27px;
+    font-weight: 400;
+    position: relative;
+    top: 38px;
+    left: 70px;
+}
+
+.book-name-2 {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    width: 127px;
+    height: 23px;
+    position: relative;
+    top: 23px;
+}
+
+.author-name {
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 12px;
+    font-weight: 500;
+    width: 127px;
+    height: 69px;
+    display: block;
+    position: relative;
+    top: 62px;
+}
+
+.shopping-links-1, 
+.shopping-links-2,
+.shopping-links-3 {
+    width: 151px;
+    height: 27px;
+    border-radius: 6px;
+    background: #2F8481;
+    position: relative;
+    top: 84px;
+    display: flex;
+}
+
+.shopping-links-2 {
+    top: 99px;
+}
+
+.shopping-links-3 {
+    top: 114px;
+}
+
+.position-icon {
+    position: relative;
+    left: 10px;
+    bottom: 1px;
+}
+
+.link-name {
+    color: #F2F2F2;
+    font-size: 9px;
+    font-weight: 300;
+    position: relative;
+}
+
+.link-name-amazon {
+    left: 32px;
+    top: 4px;
+}
+
+.link-name-flipkart {
+    left: 36px;
+    top: 4px;
+}
+
+.link-name-snapdeal {
+    left: 31px;
+    top: 4px;
+}
+
+.arrow-icon {
+    position: relative;
+}
+
+.arrow-icon-1 {
+    top: 9px;
+    left: 60px;
+}
+
+.arrow-icon-2 {
+    left: 70px;
+    top: 9px;
+}
+
+.arrow-icon-3 {
+    left: 50px;
+    top: 9px;
+}
+
+.book-section-2 {
+    position: relative;
+    top: 81px;
+}
+
+.book-section-3 {
+    position: relative;
+    top: 160px;
+}
+
+.book-section-4 {
+    position: relative;
+    top: 240px;
+}
+
+.book-section-5 {
+    position: relative;
+    top: 315px;
+}
+
+
+.above-footer {
+    color: #F2F2F2;
+    background: url(https://s3-alpha-sig.figma.com/img/4f39/8984/b37090c140a948c03dcb89816b6a5d0d?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RUlSTssisjhKlsYJKagihEbGbh5ZKQ7EHd05Ac0qlp9aKrr0Lr9U2FUe4CC-Ox~DboeBEIko3GPbPaazm2hrawTR4e8UVuXp4I9FoJ8MfCcby2ueBz40QnyX9GEj1v63C69Ei-kYk4Iot6jI~gAKvaCu4BzMY4MbKcjDEQprepnWyBEeP2P3UhkxJ491GIjzohbS3J5PPJS2HGDNh3GY8RnZ1ok32SjXO~QNpXAXFIdlgqIqFiZ36BhgandzVd4hGiKq2Liek8Z0Z9BM42S-cTgjRmMqR18wZ9mxtbm8ptV-L7LikVeA--g77-Ok55FbtcTFpn3HPbcaLQvJYgCEZA__) lightgray 50% / cover no-repeat;
+}
+
+.content-semester {
+    display: flex;
+    flex-direction: column;
+}
+
+.sem-icon {
+    margin: 7%;
+}
+
+.sem-block-text {
+    margin: -1.5% 5% 5% 5%;
+    color: #F2F2F2;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.47px;
+}
+
+.semester-block {
+    margin: -2% 5%;
+    text-align: justify;
+    color: #F2F2F2;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.above-footer {
+    width: 100%;
+    height: 363px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 221px;
+}
+
+.button {
+    margin-top: 40px;
+    border-radius: 6px;
+    background: #F2F2F2;
+    width: 252px;
+    height: 45px;
+}
+
+.footer {
+    background-color: #1E2423;;
+    height: 363px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-quick-links {
+    color: #F2F2F2;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.quick-link-footer{
+    color: #F2F2F2;
+    position: relative;
+    bottom: 13px;
+}
+
+.svg-horizontal-line {
+    position: relative;
+    top: 42px;
+}
+
+.button-text {
+    color: #A32C30;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    left: 36px;
+    top: 6px;
+}
+
+.right-arrow-icon {
+    position: relative;
+    top: 8px;
+    left: 43px;
+}
+
+.os-author {
+    position: relative;
+    top: 82px;
+}
