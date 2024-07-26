@@ -1,180 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
+    margin: 0;
 }
+
+:root {
+    --card-hover-color:#2f2f2f;
+} 
 
 body {
     background-color: black;
+    color: #f1f1f1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.update {
-    color: #ffffff;
-    display: flex;
-    width: 100%;
-    padding: 6px 504px 7px 505px;
-    justify-content: center;
-    align-items: center;
+.btn-primary {
+    background-color: #4caf50;
+    border-color: #4caf50;
 }
 
-.text-new {
-    color: #E9556C;
-    font-size: 11px;
-    font-style: normal;
+.c-text-1 {
+    font-size: 5.25vh;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 32px;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.54px;
-    margin-right: 5px;
 }
 
-.update-text {
-    color: #ffffff;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.54px;
+.c-text-2 {
+    font-size: 2.75vh;
+    position: relative;
+    color: #fff;
 }
 
-.college-logo {
-    height: 148px;
-    width: 100%;
-    background-color: #a81445;
-    display: flex;
-    justify-content: center;
+.card-box:hover {
+    background-color: var(--card-hover-color);
+}
+
+.c-text-3 {
+    font-size: 2.75vh;
+    position: relative;
+    color: #fff;
+}
+
+.npgc-logo {
+    position: relative;
+}
+
+.Department-Logo {
+    position: relative;
 }
 
 .college-name {
     display: flex;
-    flex-direction: column;
-    margin-top: 21px;
+    justify-content: space-between;
 }
 
 .npgc-logo {
-    width: 163px;
-    height: 135px;
+    width: 10.49vw;
+    height: 15.50vh;
 }
 
 .Department-Logo {
-    width: 133px;
-    height: 102px;
-    margin-top: 19px;
-}
-
-.c-text-1 {
-    color: #FDDCDB;
-    font-size: 25px;
-    font-weight: 500;
-    letter-spacing: 2.5px;
-}
-
-.c-text-2, .c-text-3 {
-    color: #FDDCDB;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 2.24px;
-    text-align: center;
-}
-
-.nav-menu span{
-    font-weight: 300;
-    color: #ffffff;
-}
-
-.navdiv {
-    display: flex;
-    width: 100%;
+    width: 8.93vw;
+    height: 11.44vh;
+    margin-top: 1.76vh;
 }
 
 
-li {
-    list-style: none;
-    margin: 8px;
-    display: inline-block;
-}
-
-li a {
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
-    text-decoration: none;
-}
-
-ul {
-    margin: 0 20px;
-    padding: 0; 
-}
-
-li {
-    list-style: none;
-    margin: 8px;
-    display: inline-block;
-}
-
-li a {
-    color: #1d2323;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
-}
-
-i {
-    position: relative;
-    right: 25px;
-}
-
-.nav-menu li:hover .home-arrow, 
-.nav-menu li:hover .syllabus-arrow, 
-.nav-menu li:hover .study-material-arrow, 
-.nav-menu li:hover .youtube-lib-arrow,
-.nav-menu li:hover .handwritten-notes-arrow {
-    transform: rotate(180deg);
-    transition: transform 0.3s ease, color 0.3s ease;
-    color: #2F8481;
-}
-
-a > span:hover {
-    color: #4d859c;
-}
-
-.nav-menu .home-arrow, 
-.nav-menu .syllabus-arrow, 
-.nav-menu .study-material-arrow, 
-.nav-menu .youtube-lib-arrow,
-.nav-menu .handwritten-notes-arrow {
-    color: #ffffff;
-}
-
-.navdiv{
-    width: 100%;
-    height: 64px;
-    background: #8A2A2C;
-    align-items: center;
-}
-
-.computer-lab_image{
-    width: 100%;
-    height: 649px;
-    background: linear-gradient(0deg, 
-    rgba(2, 1, 1, 0.68) 0%, 
-    rgba(2, 1, 1, 0.68) 100%),
-    url(https://s3-alpha-sig.figma.com/img/85d3/f552/625d8db12836447a70656324e574bf08?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XIrFw35c~yQceIrkb1BfUkiYVV7g7RnHVhQofkmx~aTvaXl~2FsqUCaFpDKW5nNPR9sCPPy0vKv9aU5ytOGdkXxMT0FaZgA8fHSlBGGR6ueepVELjnva3DF3ICDi8~5205N1SvwLPrQ2WZRjsT9ga~vVVSh8SbgnM2buGHUGyEotrVVkZjWZl~OLhiyB0AD9jWsF0YAa3m0oRQT~f7BHLymVx550AoF~DRWCmqqta0CT33QTs4hhEjpD~N3TE6NW3jKQsoU629mQJDrfGl2dJKvHQx5Bx5by5mP99wbfAOcYpd-5FD3LLH9sJSVMPV~PJ-5hEDU1VyQJrecxKzyJuQ__) 
-    lightgray 0px -109.338px / 100% 129.688% no-repeat;
-}
-
-.text_1, .text_2 {
+.text_1,
+.text_2 {
     color: #F2F2F2;
     text-align: center;
 }
 
 .text_1 {
-    font-size: 51px;
+    font-size: 4.89vh;
     font-weight: 700;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    margin-top: 8vh;
 }
 
 .text_2 {
@@ -182,18 +89,13 @@ a > span:hover {
     font-size: 19px;
     width: 844px;
     height: 145px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
-.frame-1 {
-    background-image: url(assets/computer-lab.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 649px;
+.bca-heading-mid {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -207,141 +109,30 @@ a > span:hover {
     justify-content: center;
 }
 
-.button-text{
+.button-text {
     color: #F2F2F2;
     font-size: 16px;
     font-weight: 300;
 }
 
-.right-arrow-icon {
-    margin-left: 4px;
-    margin-top: 1px;
+.term-text {
+    margin-top: 8vh;
+    font-size: 2.68vh;
 }
 
-.heading-2{
+.container {
+    margin-left: 0px;
     display: flex;
+    margin-right: 0px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
+    max-width: -webkit-fill-available;
 }
 
-.semesters {
-    display: grid;
-    grid-template-columns: repeat(18,1fr);
-    grid-template-rows: repeat(auto-fit,50px);
+.img-college-name {
+    width: 40.46vw;
+    height: 17.46vh;
 }
 
-.sem-1 {
-    grid-column: 5/9;
-    grid-row: 2/8;
-}
-
-.sem-2 {
-    grid-column: 11/15;
-    grid-row: 2/8;
-}
-
-.sem-3 {
-    grid-column: 5/9;
-    grid-row: 12/19;
-}
-
-.sem-4 {
-    grid-column: 11/15;
-    grid-row: 12/19;
-}
-
-.sem-5 {
-    grid-column: 5/9;
-    grid-row: 22/29;
-}
-
-.sem-6 {
-    grid-column: 11/15;
-    grid-row: 22/29;
-}
-
-.sem-1,
-.sem-2,
-.sem-3,
-.sem-4,
-.sem-5,
-.sem-6 {
-    margin-bottom: 15%;
-    width: 523px;
-    height: 414px;
-    border-radius: 26px;
-    background: url(https://s3-alpha-sig.figma.com/img/33af/59e4/dd7b00e7e3434762e5c512405c2730ed?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n2VZiqDvFj1o0CnJj6QtFl0SuNZAqNlc-SntXzU6sS2-b9ZZ~ZH87xFTQdfKbYc-QxkkAzkwlKfqfGn2SO7qdaklBV84Fumy4KmBLyykhoTaz2WJet11zZ6NJlVI1TvTplM1qmbnB7DivTaK2jelFsG9Y1ElSIFVCycraHqls1pxMIFzBe7qXdJ~vdEE8vyB32gsYXkfTtYOxD5KyjDqGF9u9yVt-VvBCOLX4DmNdoQDs4uawA4AsSkMa2pKvIUG3XZFzhVm3piAPQ9zlUDyMV8lJsfx~qF9vMVRnlyYXVMV7tak5C~kS0d9qn8-Dwhlu5l7xHW~vo0Amibo0fFjIQ__) lightgray 50% / cover no-repeat;
-}
-
-
-.above-footer {
-    color: #F2F2F2;
-    background: url(https://s3-alpha-sig.figma.com/img/4f39/8984/b37090c140a948c03dcb89816b6a5d0d?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RUlSTssisjhKlsYJKagihEbGbh5ZKQ7EHd05Ac0qlp9aKrr0Lr9U2FUe4CC-Ox~DboeBEIko3GPbPaazm2hrawTR4e8UVuXp4I9FoJ8MfCcby2ueBz40QnyX9GEj1v63C69Ei-kYk4Iot6jI~gAKvaCu4BzMY4MbKcjDEQprepnWyBEeP2P3UhkxJ491GIjzohbS3J5PPJS2HGDNh3GY8RnZ1ok32SjXO~QNpXAXFIdlgqIqFiZ36BhgandzVd4hGiKq2Liek8Z0Z9BM42S-cTgjRmMqR18wZ9mxtbm8ptV-L7LikVeA--g77-Ok55FbtcTFpn3HPbcaLQvJYgCEZA__) lightgray 50% / cover no-repeat;
-}
-
-.content-semester {
-    display: flex;
-    flex-direction: column;
-}
-
-.sem-icon {
-    margin: 7%;
-}
-
-.sem-block-text {
-    margin: -1.5% 5% 5% 5%;
-    color: #F2F2F2;
-    font-size: 21px;
-    font-weight: 700;
-    letter-spacing: 1.47px;
-}
-
-.semester-block {
-    margin: -2% 5%;
-    text-align: justify;
-    color: #F2F2F2;
-    font-size: 19px;
-    font-weight: 400;
-}
-
-.above-footer {
-    width: 100%;
-    height: 363px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.button {
-    margin-top: 40px;
-}
-
-
-.footer {
-    background-color: #1E2423;;
-    height: 363px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.li-quick-links {
-    color: #F2F2F2;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 48px;
-}
-
-.quick-link-footer{
-    color: #F2F2F2;
-    position: relative;
-    bottom: 13px;
-}
-
-.svg-horizontal-line {
-    position: relative;
-    top: 42px;
+.college{
+    width:100% !important;
 }
