@@ -1,138 +1,239 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-    box-sizing: border-box;
-    font-family: 'Poppins';
-    margin: 0;
-}
-
 :root {
-    --card-hover-color:#2f2f2f;
-} 
-
-body {
-    background-color: black;
-    color: #f1f1f1;
-    background-repeat: no-repeat;
-    background-size: cover;
+    --background-color: #001233;
+    --text-color: #F2F2F2;
 }
 
-.btn-primary {
-    background-color: #4caf50;
-    border-color: #4caf50;
-}
-
-.c-text-1 {
-    font-size: 5.25vh;
-    color: #fff;
-    margin-bottom: 0;
-    font-size: 32px;
-    font-weight: 400;
-}
-
-.c-text-2 {
-    font-size: 2.75vh;
+.img-w-lg-120 {
+    width: 380px;
+    height: 357px;
     position: relative;
-    color: #fff;
+    left: 282px;
 }
 
-.card-box:hover {
-    background-color: var(--card-hover-color);
+.bca-text, .appl-text {
+    font-size: 4.05rem;
+    white-space: nowrap;
 }
 
-.c-text-3 {
-    font-size: 2.75vh;
+.intro-text {
+    width: 33.6875rem;
+    margin-right: 1rem;
+    text-align: left;
+    font-size: 1.2555rem;
+}
+
+@media (max-width: 390px) {
+    .bca-text, .appl-text {
+        font-size: 1.3rem;
+    }
+
+    .intro-text {
+        font-size: 1.3rem;
+        width: auto;
+    }
+
+    .list-unstyled-footer {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .bca-text, .appl-text {
+        font-size: 1.3rem;
+    }
+
+    .intro-text {
+        font-size: 0.785rem !important;
+        width: auto;
+        text-align: justify;
+    }
+
+    .btn_share_notes {
+        position: relative;
+        left: 33%;
+    }
+
+    .rm-button{
+        position: relative;
+        left: 25%;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .img-w-lg-120,
+    .img-share-notes,
+    .small-icon {
+        display: none;
+    }
+
+    .share-note-text {
+        white-space: nowrap;
+        font-size: 1.02rem !important;
+    }
+
+    .list-unstyled-footer {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 25%;
+        padding: 24px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .bca-text, .appl-text {
+        font-size: 3rem;
+    }
+
+    .intro-text {
+        font-size: 1.8rem;
+        width: auto;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .img-w-lg-120,
+    .img-share-notes,
+    .small-icon {
+        display: none;
+    }
+
+    .share-note-text {
+        font-size: 2.15rem !important;
+    }
+
+    .list-unstyled-footer {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .bca-text, .appl-text {
+        font-size: 3rem;
+    }
+
+    .intro-text {
+        font-size: 1.9rem;
+        width: auto;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .bca-text, .appl-text {
+        font-size: 3.05rem;
+    }
+
+    .intro-text {
+        font-size: 1.2555rem;
+        width: 28.74rem;
+    }
+
+}
+
+.sem-text {
+    font-size: 14.8px;
+    text-align: left;
+}
+
+.share-note-text {
+    white-space: nowrap;
+    font-size: 2.75rem;
+}
+
+.img-share-notes {
+    width: 567px;
+    height: 551px;
     position: relative;
-    color: #fff;
+    top: 2.5rem;
+    left: 7rem;
 }
 
-.npgc-logo {
-    position: relative;
+.small-icon {
+    position: absolute;
+    left: 93%;
+    top: 6%;
 }
 
-.Department-Logo {
-    position: relative;
+.small-icon-2 {
+    left: 70%;
+    top: 16%;
 }
 
-.college-name {
+.small-icon-3 {
+    left: 90%;
+    top: 15%;
+}
+
+.small-icon-4 {
+    left: 69%;
+    top: 8%;
+}
+
+i {
+    font-size: 26px;
+}
+
+footer {
+    background: var(--background-color);
+}
+
+.list-unstyled-footer {
     display: flex;
-    justify-content: space-between;
+    list-style-type: none;
 }
 
-.npgc-logo {
-    width: 10.49vw;
-    height: 15.50vh;
+.li-list {
+    color: var(--text-color);
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 48px;
+    padding: 6px;
+    text-decoration: none;
 }
 
-.Department-Logo {
-    width: 8.93vw;
-    height: 11.44vh;
-    margin-top: 1.76vh;
+.main-header{
+    position: absolute;
 }
 
-
-.text_1,
-.text_2 {
-    color: #F2F2F2;
-    text-align: center;
+a.nav-link.dropdown-toggle,
+.nav-link {
+    color: white;
 }
 
-.text_1 {
-    font-size: 4.89vh;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 8vh;
+i, .navbar-toggler{color: white;}
+
+.navbar,
+.offcanvas-body {
+    background-color: #001233;
 }
 
-.text_2 {
-    font-weight: 400;
-    font-size: 19px;
-    width: 844px;
-    height: 145px;
-    margin-bottom: 20px;
+.navLink {
+    color: white;
 }
 
-.bca-heading-mid {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.button {
-    width: 252px;
-    height: 45px;
-    border-radius: 6px;
-    background: #8A2A2C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button-text {
-    color: #F2F2F2;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.term-text {
-    margin-top: 8vh;
-    font-size: 2.68vh;
-}
-
-.container {
-    margin-left: 0px;
-    display: flex;
-    margin-right: 0px;
-    flex-direction: column;
-    max-width: -webkit-fill-available;
-}
-
-.img-college-name {
-    width: 40.46vw;
-    height: 17.46vh;
-}
-
-.college{
-    width:100% !important;
+.nav-link:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
 }
