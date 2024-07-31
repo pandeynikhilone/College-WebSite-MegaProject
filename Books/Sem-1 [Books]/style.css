@@ -73,7 +73,12 @@
         border-radius: 23px;
         background: var(--transparent-block-bg);
         position: relative;
-        left: 2% !important;
+    }
+    .lower-navigation {
+        display: flex;
+        align-items: center;
+        gap: 13px !important;
+        justify-content: center;
     }
 }
 
@@ -292,4 +297,31 @@ h3 {
     color: var(--header-color);
     font-size: 1.13rem;
     font-weight: 400;
+}
+.lower-navigation {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    justify-content: center;
+}
+
+.lower-nav-buttons {
+    width: 9rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.5625rem;
+    border: 0.125rem solid #023E7D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-nav-text {
+    color: #023E7D;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.lower-nav-bg {
+    background: #023E7D;
 }
