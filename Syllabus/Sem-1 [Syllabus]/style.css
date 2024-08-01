@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -16,28 +16,25 @@ body {
     color: #ffffff;
     display: flex;
     width: 100%;
-    padding: 6px 504px 7px 505px;
+    padding: 6px 0;
     justify-content: center;
     align-items: center;
 }
 
-.text-new {
-    color: #E9556C;
+.text-new, .update-text {
     font-size: 11px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.54px;
+}
+
+.text-new {
+    color: #E9556C;
     margin-right: 5px;
 }
 
 .update-text {
     color: #ffffff;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.54px;
 }
 
 .college-logo {
@@ -46,6 +43,7 @@ body {
     background-color: #a81445;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .college-name {
@@ -65,22 +63,24 @@ body {
     margin-top: 19px;
 }
 
-.c-text-1 {
+.c-text-1, .c-text-2, .c-text-3 {
     color: #FDDCDB;
+    text-align: center;
+}
+
+.c-text-1 {
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 2.5px;
 }
 
 .c-text-2, .c-text-3 {
-    color: #FDDCDB;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 2.24px;
-    text-align: center;
 }
 
-.nav-menu span{
+.nav-menu span {
     font-weight: 300;
     color: #ffffff;
 }
@@ -88,6 +88,14 @@ body {
 .navdiv {
     display: flex;
     width: 100%;
+    height: 64px;
+    background: #8A2A2C;
+    align-items: center;
+}
+
+ul {
+    margin: 0 20px;
+    padding: 0;
 }
 
 li {
@@ -102,24 +110,6 @@ li a {
     font-weight: bold;
     margin-right: 25px;
     text-decoration: none;
-}
-
-ul {
-    margin: 0 20px;
-    padding: 0; 
-}
-
-li {
-    list-style: none;
-    margin: 8px;
-    display: inline-block;
-}
-
-li a {
-    color: #1d2323;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
 }
 
 i {
@@ -149,13 +139,6 @@ a > span:hover {
     color: #ffffff;
 }
 
-.navdiv{
-    width: 100%;
-    height: 64px;
-    background: #8A2A2C;
-    align-items: center;
-}
-
 .first-sem {
     width: 100%;
     margin-top: 20px;
@@ -175,21 +158,15 @@ a > span:hover {
     padding: 34px;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.sb-name {
-    font-size: 25px;
     text-align: center;
 }
 
 .data {
     height: 870px;
     width: 80%;
-    background-color: #24242471;
-    margin: 0 auto;
+    background-color: rgba(36, 36, 36, 0.44);
+    margin: -60px auto 100px;
     padding-top: 50px;
-    margin-top: -60px;
-    margin-bottom: 100px;
     border-radius: 12px;
     position: relative;
     z-index: -1;
@@ -228,7 +205,7 @@ a > span:hover {
     background-color: rgba(173, 173, 173, 0.884);
     position: relative;
     left: 430px;
-    padding: 10PX;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -238,98 +215,8 @@ a > span:hover {
     cursor: pointer;
 }
 
-.first-sem {
-    width: 100%;
-    margin-top: 20px;
-}
-
-.sub {
-    background-color: #d9d9d9;
-    height: 130px;
-    width: 60%;
-    margin: 0 auto;
-    font-size: 22px;
-    font-weight: 650;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 34px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.sb-name {
-    font-size: 25px;
-    text-align: center;
-}
-
-.data {
-    height: 870px;
-    width: 80%;
-    background-color: #24242471;
-    margin: 0 auto;
-    padding-top: 50px;
-    margin-top: -60px;
-    margin-bottom: 100px;
-    border-radius: 12px;
-    position: relative;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.data .unit {
-    width: 80%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.data .unit .unit-title {
-    text-align: left;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.data .unit .unit-desc {
-    font-size: 15px;
-    font-weight: 500;
-    text-align: justify;
-}
-
-.download {
-    text-align: right;
-    border: 2px solid white;
-    border-radius: 5px;
-    background-color: rgba(173, 173, 173, 0.884);
-    position: relative;
-    left: 430px;
-    padding: 10PX;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.quick {
-    width: 100%;
-    height: 250px;
-    background: url(https://s3-alpha-sig.figma.com/img/4f39/8984/b37090c140a948c03dcb89816b6a5d0d?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MKisuPOXs8~OTy-TqldRxpcojAl~yswtleoI98sca4dauSWp3lcOWw4Fo8xTbZRG-q8EK~2Dz0qA0PhgcCTeEn51K8a6NvmCG-rL3zwOBzK1fbh3hTgw01q-eDdsL5pR5r6y~d96xT9tIfRXHAKXYa2H1yGfD-6dgIXipfGgbUQkP11GW71ZlEii8Mv0nXXt~gDyML9HXBKAytE-9gUjxcxc~sxkoRQL8KMGj4RIZMBwS4bIymz13vJmcjFpiWOW-pneD5QzaOJWNn-~0NPvcgG8s0oPPueOsFIb5i6gjj3hwKgtzshikQV4fm4MWC9e1rhJ-SHQJTXW1E3cPAiT~Q__) 
-    lightgray 50% / cover no-repeat;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 34px;
-    padding: 54px;
-}
-
 .footer {
-    background-image: url(https://s3-alpha-sig.figma.com/img/4f39/8984/b37090c140a948c03dcb89816b6a5d0d?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MKisuPOXs8~OTy-TqldRxpcojAl~yswtleoI98sca4dauSWp3lcOWw4Fo8xTbZRG-q8EK~2Dz0qA0PhgcCTeEn51K8a6NvmCG-rL3zwOBzK1fbh3hTgw01q-eDdsL5pR5r6y~d96xT9tIfRXHAKXYa2H1yGfD-6dgIXipfGgbUQkP11GW71ZlEii8Mv0nXXt~gDyML9HXBKAytE-9gUjxcxc~sxkoRQL8KMGj4RIZMBwS4bIymz13vJmcjFpiWOW-pneD5QzaOJWNn-~0NPvcgG8s0oPPueOsFIb5i6gjj3hwKgtzshikQV4fm4MWC9e1rhJ-SHQJTXW1E3cPAiT~Q__);
+    background-color: #1d2323;
     width: 100%;
     height: 363px;
     display: flex;
@@ -344,7 +231,7 @@ a > span:hover {
     line-height: 48px;
 }
 
-.quick-link-footer{
+.quick-link-footer {
     color: #F2F2F2;
     position: relative;
     bottom: 13px;
@@ -354,4 +241,3 @@ a > span:hover {
     position: relative;
     top: 42px;
 }
-

@@ -4,223 +4,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National P.G. College</title>
+    <link href="assets/style.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
 </head>
 
 <body>
-    <div class="home-page">
-        <div class="update">
-            <span class="text-new">New</span>
-            <span class="update-text"> Hand written notes of Operating System for Semester 3 added</span>
-        </div>
+    <img src="Frame 54 (1).png" alt="" srcset="" style="width: 100%;">
+    <div class="wrapper">
 
-        <div class="college-logo">
-            <img class="npgc-logo" src="assets/College_Logo.png" alt="this is an image">
-            <div class="college-name">
-                <span class="c-text-1">NATIONAL POST GRADUATE COLLEGE</span>
-                <span class="c-text-2">An Autonomous, CPE & CPE NAAC Grade ‘A’</span>
-                <span class="c-text-3">College of University of Lucknow</span>
+        <header class="main-header bg-primary"></header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="navLink nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Syllabus</a>
+                                <ul class="dropdown-menu start">
+                                    <li><a class="dropdown-item" href="#">Semester-1</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-2</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-3</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-4</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-5</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-6</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Notes</a>
+                                <ul class="dropdown-menu start">
+                                    <li><a class="dropdown-item" href="#">Semester-1</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-2</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-3</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-4</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-5</a></li>
+                                    <li><a class="dropdown-item" href="#">Semester-6</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Admin</a>
+                                <ul class="dropdown-menu start">
+                                    <li><a class="dropdown-item" href="#">Feedback Form</a></li>
+                                    <li><a class="dropdown-item" href="#">Upload Notes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Account</a>
+                                <ul class="dropdown-menu start">
+                                    <li><a class="dropdown-item" href="#">Login</a></li>
+                                    <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-right ms-auto">
+                    <div class="hr-nav-item h-search">
+                        <a data-bs-toggle="collapse" href="#" role="button" aria-expanded="false"
+                            aria-controls="header_search">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <div class="hr-nav-item h-user dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="toggler-icon"></span>
+                </button>
+                <div class="collapse header-search shadow-lg" id="header_search">
+                    <div class="header-search-in">
+                        <form class="position-relative">
+                            <input type="text" name="search" class="form-control"
+                                placeholder="What do you want to learn?">
+                            <button class="search-btn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <img class="Department-Logo" src="assets/Department_Logo.png" alt="this is an image">
-        </div>
+        </nav>
 
-        <div class="navdiv">
-            <div class="nav-menu">
-                <ul>
-                    <li class="li-1">
-                        <a href="#"><span class="nav-text">Home</span></a>
-                        <i class="fa-solid fa-angle-down home-arrow"></i>
-                    </li>
+        <section class="section bg-gray-100">
+            <div class="container">
+                <div class="row justify-content-center section-heading">
+                    <div class="col-lg-7 col-xl-6 text-center">
+                        <h3 class="h1">SEMESTERS</h3>
+                        <p class="m-0" style="font-size: 1.23vw; text-align: justify; padding: 0;">"Semester I
+                            introduces computing fundamentals, mathematical structures, and
+                            system design, with practical programming in C."</p>
+                    </div>
+                </div>
 
-                    <li>
-                        <a href="#"><span class="nav-text">Syllabus</span></a>
-                        <i class="fa-solid fa-angle-down syllabus-arrow"></i>
-                    </li>
 
-                    <li>
-                        <a href="#"><span class="nav-text">Study Material</span></a>
-                        <i class="fa-solid fa-angle-down study-material-arrow"></i>
-                    </li>
+                <div class="row lower-navigation mb-7">
+                    <div class="col-sm-1 lower-nav-buttons"><span class="lower-nav-text">SYLLABUS</span></div>
+                    <div class="col-sm-1 lower-nav-buttons"><span class="lower-nav-text">BOOKS</span></div>
+                    <div class="col-sm-1 lower-nav-buttons lower-nav-bg"><span class="lower-nav-text text-white">LIBRARIES</span></div>
+                    <div class="col-sm-1 lower-nav-buttons"><span class="lower-nav-text">NOTES</span></div>
+                </div>
 
-                    <li>
-                        <a href="#"><span class="nav-text">Youtube Libraries</span></a>
-                        <i class="fa-solid fa-angle-down youtube-lib-arrow"></i>
-                    </li>
-
-                    <li>
-                        <a href="#"><span class="nav-text">Handwritten Notes</span></a>
-                        <i class="fa-solid fa-angle-down handwritten-notes-arrow"></i>
-                    </li>
-
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="first-sem">
+            <div class="first-sem">
             <div class="first-sem-title sub">
-                <span class="sb-name">Computer Fundamentals and Emerging Technologies</span>
+                <span class="sb-name">Data Structures</span>
             </div>
             <div class="first-sem-data data">
                 <div class="unit">
                     <div class="unit-1 unit-title">Unit I</div>
-                    <div class="unit-1-data unit-desc">Introduction, Characteristics of Computers, Block diagram of
-                        computer, Types of computers and features: Mini Computers, Micro Computers, Mainframe Computers,
-                        Super Computers (03). Types of Programming Languages: Machine Languages, Assembly Languages,
-                        High Level Languages (03), Translators:- Assembler, Compiler, Interpreter and Linkers (02),
-                        Operating system concepts, Types of OS, Functions of OS (04).</div>
+                    <div class="unit-1-data unit-desc"> Data Structure, definition, and application, Arrays: Representation of single and multidimensional arrays;
+                        sparse arrays- lower and upper Triangular matrices and Tri-diagonal matrices, Recursion, Defining Stack and
+                        Queue, Stack Operations and Implementation, Array Implementation, Pointer Implementation (05), Stack
+                        Applications, Convert Number Bases by Using Stacks, Infix to Postfix Conversion, Evaluation of postfix
+                        expression. Introduction and primitive operation on queues, D-queues Queue Application, Circular, Double
+                        Ended and Priority Queues (05).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-2 unit-title">Unit II</div>
-                    <div class="unit-2-data unit-desc">The Evolution of a computer program, computer program structure:
-                        the structured control flow constructs of selection (if/then/else) and repetition (while and
-                        for), block structures, and subroutines. (03) Memory concepts, Types of Memory (Primary and
-                        Secondary):- RAM, ROM and its types, Secondary Storage Devices (01), Types of variables: local
-                        variable, global variable, static variable, automatic variable, external variable, computer
-                        program functionality, how data processing works, standard I/O operations (03), Data
-                        Organization: Drives, Files, Directories (03). </div>
+                    <div class="unit-2-data unit-desc">Lists, Basic Terminology, Static Implementation of Lists, Pointer Implementation of Lists, Insertion in a
+                        list, Deletion from a list, traversal, Searching (05), Arrays using Linked List, Doubly Linked Lists, Circular,
+                        Doubly, Circular Doubly Linked List (07). </div>
                 </div>
                 <div class="unit">
                     <div class="unit-3 unit-title">Unit III</div>
-                    <div class="unit-3-data unit-desc">Basic elements of a communication system, Data transmission
-                        modes, Data Transmission speed, Data transmission media (04), Digital and Analog Transmission,
-                        Network topologies, Network Types (LAN, WAN and MAN), Client and Servers, Intranet, Extranet.
-                        (04) Internet: Introduction to Internet, Terminologies related to Internet: Protocol, Domain
-                        name, IP address, URL, World Wide Web, Connecting to the Internet (04).</div>
+                    <div class="unit-3-data unit-desc"> Defining Graph, Basic Terminology, Graph Traversal: Depth First Search (DFS), Breadth First Search
+                        (BFS), Shortest Path Problem (03), Trees: Introduction and terminology; Traversal of binary trees; Algo
+                        rithms for tree operations such as traversal, insertion, deletion; Binary Trees, Inorder, Postorder and Preorder
+                        Traversals (03), Minimal Spanning Tree, Prims and Kruskals Algorithm, Binary Search Trees, Operations
+                        on a BST, Insertion, Deletion, Search for a key in BST, B-Trees: Introduction: Threaded Binary tree, AVL
+                        Trees (06)..</div>
                 </div>
                 <div class="unit">
                     <div class="unit-4 unit-title">Unit IV</div>
-                    <div class="unit-4-data unit-desc">Introduction to Big Data: Types of digital data, Big Data
-                        architecture and characteristics, Big Data technology components, Big Data importance and
-                        applications. (05) Introduction to Block Chain: Structure, Operational aspects of Bitcoin Block,
-                        Compare different types of Block chains, Protocols, Payment mode code execution.(06)</div>
+                    <div class="unit-4-data unit-desc"> Searching and Sorting techniques, Sequential Search, Binary Search, Selection Sort, Insertion Sort, Bubble
+                        Sort (05), Quick Sort, 2-way Merge Sort, Heap Sort, Bucket or Radix sort, Hashing (06).</div>
                 </div>
                 <div class="download">Download<img src="assets/PDF-Icon.png"></div>
             </div>
         </div>
         <div class="first-sem">
             <div class="first-sem-title sub">
-                <span class="sb-name">Digital Electronics</span>
+                <span class="sb-name">Oral And Written Communication Skill</span>
             </div>
             <div class="first-sem-data data">
                 <div class="unit">
                     <div class="unit-1 unit-title">Unit I</div>
-                    <div class="unit-1-data unit-desc">Binary System: Digital Computers and digital systems, Number
-                        system (03), Binary Arithmetic, Signed binary numbers, complements: r’s complements (2’s
-                        complement, 10’s complements), (r-1)’s complements (1’s complement, 9’s complement), Subtraction
-                        using 1’s complement and 2’s complement method, Binary codes, Logic gates: Inverter, AND, OR,
-                        NOR, NAND, XOR, XNOR, De Morgan’s Theorems, Boolean algebra, Canonical and standard forms,
-                        Karnaugh Map (04), Introduction to IC Digital logic families (RTL, DTL, TTL, ECL, MOS and CMOS)
-                        and characteristics (Fan-In, Fan-out, Power Dissipation, Propagation delay, Noise margin) of IC
-                        Digital logic families (TTL, ECL, CMOS)</div>
+                    <div class="unit-1-data unit-desc"> Introduction to Communication: Meaning and process of communication. Scope of communication Channels
+                        of communication (04). Models of communication– SMCR Model, Shannon-Weaver Model Barriers to
+                        communication, Verbal communication, 7 C’s of communication, Meta Communication (06).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-2 unit-title">Unit II</div>
-                    <div class="unit-2-data unit-desc">Combinational and sequential Circuits: Half adder, Full adder,
-                        Half Subtractor, full Subtractor, Serial and parallel adder (04), Code conversion circuits (02),
-                        Parity generator and checker (02), Comparators (01), Encoder, Decoder, Multiplexer,
-                        De-multiplexer (03) </div>
+                    <div class="unit-2-data unit-desc"> English Grammar and Written Communication: English Grammar– Tense/Article, Preposition, Modals,
+                        Transformation of sentences. Written communication– principles, merits & demerits. Business letters– Structure/Parts of a letter, essentials of effective business letters (06). Sales letters– qualities, using
+                        effective sales statements, Types of letters– sales, complaints and adjustments, placing orders (06). </div>
                 </div>
                 <div class="unit">
                     <div class="unit-3 unit-title">Unit III</div>
-                    <div class="unit-3-data unit-desc">Flip flops: RS-Flip flop, D-Flip flop, T-flip flop, JK-Flip flop,
-                        JK Master slave flip flop, edge triggered and pulse triggered flip flops (06), Registers: Simple
-                        Register, Shift registers, Types of Shift Register, Construction and timing diagram of 4-bit
-                        Shift Register (06)</div>
+                    <div class="unit-3-data unit-desc">Oral Communication: Oral communication– advantages and disadvantages. Interviews– meaning and
+                        purpose, Types of interview. Guidelines for interviewer and interviewee (06). Important non-verbal aspects
+                        in an interview- Proxemics, Paralanguage. Styles of interviewing, Cover letter, Job application, Resume
+                        writing (06).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-4 unit-title">Unit IV</div>
-                    <div class="unit-4-data unit-desc">Counter: Binary counter, characteristic of counter
-                        (Synchronous/Asynchronous, Modulus/length of counter, UP/DOWN counter, Speed of Asynchronous
-                        counter), Construction of full length and Non full length, UP/DOWN Synchronous counter using 2,
-                        3 and 4 FF, Ripple counter. Design of different MOD counter, Construction of Asynchronous
-                        counter, Ring Counter, Johnson Counter (05), Random Access Memory, Read Only Memory, Types of
-                        Read Only Memory (03), Multivibrators: Astable, Monostable, Bistable, Schmitt Trigger, Timer
-                        (03)</div>
+                    <div class="unit-4-data unit-desc"> Reading and Listening: Reading– Meaning and importance in communication, Listening– meaning, nature
+                        and importance, Barriers to listening (05). Kinesics– Role of body language in communication Group
+                        discussion– methodology, guidelines, role and functions, Practice role playing and group discussions (06).</div>
                 </div>
                 <div class="download">Download<img src="assets/PDF-Icon.png"></div>
             </div>
         </div>
         <div class="first-sem">
             <div class="first-sem-title sub">
-                <span class="sb-name">Discrete Mathematical Structures</span>
+                <span class="sb-name">Computer Networks</span>
             </div>
             <div class="first-sem-data data">
                 <div class="unit">
                     <div class="unit-1 unit-title">Unit I</div>
-                    <div class="unit-1-data unit-desc">Sets: Sets, Subsets, Equal Sets Universal Sets, Finite and
-                        Infinite Sets, Operation on Sets, Union, Intersection and Complements of Sets, Cartesian
-                        product, Cardinality of Set, Simple Applications. (06) Relations And Functions: Properties of
-                        Relations, Equivalence Relation, Partial Order Relation Function: Domain and Range, Onto, Into
-                        and One to One Functions, Composite and Inverse Functions, Introduction of Trigonometric,
-                        Logarithmic and Exponential Functions. (06).</div>
+                    <div class="unit-1-data unit-desc"> Computer networks, Networks Hardware– Local Area network, Metropolitan Area network, Wide Area
+                        network (03). Wireless network, Internetworks (03). Networks Software: Protocol Hierarchies, Design and
+                        Issues for layers (02). Interfaces and Services, Connection-oriented and Connectionless Services (03).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-2 unit-title">Unit II</div>
-                    <div class="unit-2-data unit-desc">Partial order relations and lattices: Partial Order Sets,
-                        Representation of POSETS using Hasse diagram, Chains, Maximal and Minimal Point, Glb, lub (06),
-                        Lattices & Algebraic Systems, Principle of Duality, Basic Properties, Sub lattices, Distributed
-                        & Complemented Lattices. (06) </div>
+                    <div class="unit-2-data unit-desc"> Reference Models, and OSI Reference Model, TCP/IP Protocol Suite (03). The Physical Layer: Maximum
+                        Data Rate of a channel, Transmission Media: Magnetic Media, Twisted Pair, Baseband and Broadband
+                        Coaxial cable, Fiber Optical (03). Wireless Transmission, structure of telephone system, Switching, Multi
+                        plexing, ISDN (04). </div>
                 </div>
                 <div class="unit">
                     <div class="unit-3 unit-title">Unit III</div>
-                    <div class="unit-3-data unit-desc">Number Theory: Greatest Common Divisors, Euclidean Algorithms,
-                        Fibonacci Numbers, Complexity of Euclidean Algorithms, Congruences and Equivalence Relations
-                        (04) Groups & Sub groups: Group axioms, permutation groups, subgroups, cosets, normal subgroups,
-                        semi-groups, free semi-groups, monoids (04), error correcting codes (02).</div>
+                    <div class="unit-3-data unit-desc"> Data link layer, Error control, Flow control, Sliding Window Protocol (04). Channel Allocation Problem,
+                        Multiple Access Protocol: ALOHA, CSMA protocol, Collision Free protocol, Polling (04). Network layer:
+                        Routing Algorithm, Congestion Control Algorithm, IP protocol, IP Addresses (04).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-4 unit-title">Unit IV</div>
-                    <div class="unit-4-data unit-desc">Combinatorics & Recurrence Relations: Basic Theorems on
-                        permutation and combinations. Pigeon hole principle, principle of inclusion and exclusion (04).
-                        Ordinary & exponential generating functions (03) recurrence relation, solving recurrence
-                        relation by substitution, solving recurrence relation by conversion to linear recurrence
-                        relation (04).</div>
+                    <div class="unit-4-data unit-desc"> Addressing, Establishing and releasing a connection (04). TCP service Model, TCP
+                        protocol (04). The Application Layer: Network Security, Domain Name System (04).</div>
                 </div>
                 <div class="download">Download<img src="assets/PDF-Icon.png"></div>
             </div>
         </div>
         <div class="first-sem">
             <div class="first-sem-title sub">
-                <span class="sb-name">Programming in ‘C’ Language</span>
+                <span class="sb-name">Programming in C++</span>
             </div>
             <div class="first-sem-data data">
                 <div class="unit">
                     <div class="unit-1 unit-title">Unit I</div>
-                    <div class="unit-1-data unit-desc">Basic Programming Tools: Flowchart and Algorithm, Structured and
-                        Procedural Programming Concepts, History and Features of C, General Structure of C program, C
-                        character set, C Tokens: Keywords, Identifiers, Literals/Constants, Variable concept, Expression
-                        and statement, Various Data types in C (05), enum, Operators and expression: Arithmetic,
-                        Relational, assignment, logical, bitwise, sizeof operator, comma operator, ternary operators.
-                        Basic I/O functions. Compilation process of C program, Header files, Library functions,
-                        Preprocessor directives: #include, #define (05).</div>
+                    <div class="unit-1-data unit-desc"> OOP concept, Procedural vs OOP Programming, OOP terminology and features (03). Tokens, Character
+                        set, Keywords, Data-types Declarations, Constants and variables, Expressions, Standard Library and header
+                        files (03). Operator and Expressions; Arithmetic Operator, Increment/Decrement Operator, Relational
+                        Operator, Logical Operator and Conditional Operators, Logical Expression, Flow of control statement;
+                        Selection statement, Iteration Statement, Jump statement, Construction of loops and implementation, while,
+                        Do-while, for statements nested loops (04).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-2 unit-title">Unit II</div>
-                    <div class="unit-2-data unit-desc">Control Statements: If Statement, Switch Statement, Unconditional
-                        Branching using goto statement, Construction of loops and implementation While Loop, Do While
-                        Loop, For Loop, Break and Continue statements (06) nested loops, Pointer: Declaration,
-                        referencing and dereferencing pointer, operations on pointers. storage classes: automatic,
-                        register, external and static (05).</div>
+                    <div class="unit-2-data unit-desc"> Arrays one dimensional and two arrays (01). Classes and Objects: Need for Classes, Encapsulation, Information Hiding (03). Declaration of Classes, iostream operators, referencing class Members (04). Scope of
+                        Class and Its members, Scope resolution operator and its uses, Nested Classes (04).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-3 unit-title">Unit III</div>
-                    <div class="unit-3-data unit-desc">Introduction to Arrays: Declaration, Initialization One
-                        dimensional array Two dimensional arrays, Matrix Operations. Bubble sort, Selection sort,
-                        Insertion Sort. Linear and binary Searching, array of pointers (06). Strings, String operations:
-                        length, compare, concatenate, copy etc. Functions: functions prototypes, types of arguments,
-                        function call, call by value, call by reference, Recursion, array and function (07).</div>
+                    <div class="unit-3-data unit-desc"> Functions in class: function definition, Default arguments, Constants arguments, Call by value, Call by
+                        reference, Calling Functions with arrays, returning from a function (04). storage class specifies automatic,
+                        external and static variable (03). Function overriding, Function overloading, Operator Overloading. Func
+                        tions: Friend, Inline, Abstract, Virtual, Pure Virtual (05).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-4 unit-title">Unit IV</div>
-                    <div class="unit-4-data unit-desc">Structure Declaration, Initialization, Structure variable,
-                        Structure Assignment, Nested Structures, Structures and Functions, Structures and Arrays,
-                        typedef, Unions Declarations (06). File handling: Types of file processing: Sequential access,
-                        Random access Open, Close, Create, Process, unformatted data file. Command line arguments (06).
+                    <div class="unit-4-data unit-desc">Constructors and Destructor: Declaration, Definition and characteristics (03). Default Constructor, Copy
+                        constructor, Parameterized constructor, constructor overloading (04). Inheritance: Need, Different forms,
+                        single Inheritance, Multiple Inheritance (04).
                     </div>
                 </div>
                 <div class="download">Download<img src="assets/PDF-Icon.png"></div>
@@ -228,69 +267,103 @@
         </div>
         <div class="first-sem">
             <div class="first-sem-title sub">
-                <span class="sb-name">System Analysis and Design</span>
+                <span class="sb-name">Operating Systems</span>
             </div>
             <div class="first-sem-data data">
                 <div class="unit">
                     <div class="unit-1 unit-title">Unit I</div>
-                    <div class="unit-1-data unit-desc">System concept, Definition, Characteristics of system, Elements
-                        of a System: Input, Output Processor, Control, Feedback, Environment, Boundaries and Interface,
-                        Principles of System (04), Types of System: Abstract and Physical system, Open and Closed
-                        System, Deterministic and Probabilistic System, Need of Information, Types of Information,
-                        Man-made Information Systems: DSS, MIS, TPS (05), System analyst, role of system analyst,
-                        qualification and responsibilities of System Analyst, Multifaceted role of System analyst (03).
+                    <div class="unit-1-data unit-desc">Introduction to OS, Objectives of OS, Functions of OS- Process Management, Device Management, Memory
+                        Management, Information Management (04). Types of operating systems: Batch System, Multiprogramming
+                        System, Timesharing System, Multiprocessing System, Parallel System, Distributed Operating System, Real
+                        time System and Embedded System (06).
                     </div>
                 </div>
                 <div class="unit">
                     <div class="unit-2 unit-title">Unit II</div>
-                    <div class="unit-2-data unit-desc">System development life cycle and its various phases: Preliminary
-                        investigation, determination of system requirements, Development of software, System testing,
-                        Implementation, evaluation and maintenance, System documentation: Types of documentation and
-                        their importance (05), General structure of SRS, System Flow chart and its symbols, Software
-                        Crisis: From programmers’ point of view, from users’ point of view, System Planning, Feasibility
-                        study: steps in feasibility study, its report and importance (05). </div>
+                    <div class="unit-2-data unit-desc">Process Management: Process Concept, Life Cycle of Process, Process Schedulers, CPU Scheduling Criteria, Preemptive and Non-Preemptive Scheduling, Scheduling Algorithms: FCFS, SJF, SRTF, RR, Priority Scheduling (06). Deadlock: The Critical-Section Problem, Semaphores, Resource allocation graph, Introduction: Characterization, Deadlock Necessary conditions, Deadlock prevention, Deadlock Avoidance (Banker’s
+                        Algorithm), Safe state condition, Deadlock Detection and Recovery (06).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-3 unit-title">Unit III</div>
-                    <div class="unit-3-data unit-desc">Introduction to Arrays: Declaration, Initialization One
-                        dimensional array Two dimensional arrays, Matrix Operations. Bubble sort, Selection sort,
-                        Insertion Sort. Linear and binary Searching, array of pointers (06). Strings, String operations:
-                        length, compare, concatenate, copy etc. Functions: functions prototypes, types of arguments,
-                        function call, call by value, call by reference, Recursion, array and function (07).</div>
+                    <div class="unit-3-data unit-desc"> MemoryManagement: Characteristics, Logical and Physical Address space, Swapping, Fixed Partitioned and
+                        Variable Partitioned Memory Models, Fragmentation: Internal and External (06). Placement Algorithms:
+                        First Fit, Next Fit, Best Fit, Worst Fit. Virtual Memory Concept, Demand paging, Logical to Physical
+                        Mapping, Page Fault and Page replacement algorithms: FIFO, LRU, OPR (06).</div>
                 </div>
                 <div class="unit">
                     <div class="unit-4 unit-title">Unit IV</div>
-                    <div class="unit-4-data unit-desc">Structure Declaration, Initialization, Structure variable,
-                        Structure Assignment, Nested Structures, Structures and Functions, Structures and Arrays,
-                        typedef, Unions Declarations (06). File handling: Types of file processing: Sequential access,
-                        Random access Open, Close, Create, Process, unformatted data file. Command line arguments (06).
+                    <div class="unit-4-data unit-desc">File System: File concept, File operations, Types of Files, File Access methods, Directory Structure, File
+                        System Implementation: File system structures, Directory Implementation, Allocation methods: Contiguous,
+                        Linked, Indexed (06). Disk Management: Disk Structure & Scheduling Methods, Free Space Management,
+                        Disk management Algorithms FCFS, SSTF, SCAN, LOOK, C-SCAN, C-LOOK (05).
                     </div>
                 </div>
                 <div class="download">Download<img src="assets/PDF-Icon.png"></div>
             </div>
         </div>
-    </div>
+                
 
-    <div class="footer">
-        <div class="quick-links font-flavor">
-            <ul>
-                <li>
-                    <span class="quick-link-footer">Quick Links</span>
-                    <div class="link">
-                        <a href="#"><span class="li-quick-links">Home</span></a>
-                        <a href="#"><span class="li-quick-links">About Us</span></a>
-                        <a href="#"><span class="li-quick-links">Course</span></a>
-                        <a href="#"><span class="li-quick-links">Notes</span></a>
-                        <a href="#"><span class="li-quick-links">Contact US</span></a>
-                        <a href="#"><span class="li-quick-links">FAQ</span></a>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row g-3 d-flex flex-wrap align-items-center">
+                    <div class="col-lg-5 py-6">
+                        <h6 class="letter-spacing-2 text-primary mb-2 text-uppercase">Contribute</h6>
+                        <h2 class="h1 mb-3 share-note-text">Share your handwritten notes</h2>
+                        <p class="m-0">Welcome to the Student Notes Submission! We value your contributions and believe
+                            that sharing knowledge benefits everyone</p>
+                        <div class="pt-4 mt-4 border-top">
+                            <ul class="list-unstyled">
+                                <li class="d-flex pb-3">
+                                    <span class="icon-sm bg-primary rounded-circle text-primary">
+                                        <i class="bi-check-lg fs-lg lh-1"></i>
+                                    </span>
+                                    <span class="ps-3">Include your name</span>
+                                </li>
+                                <li class="d-flex pb-3">
+                                    <span class="icon-sm bg-primary rounded-circle text-primary">
+                                        <i class="bi-check-lg fs-lg lh-1"></i>
+                                    </span>
+                                    <span class="ps-3">Specify the course name</span>
+                                </li>
+                                <li class="d-flex pb-3">
+                                    <span class="icon-sm bg-primary rounded-circle text-primary">
+                                        <i class="bi-check-lg fs-lg lh-1"></i>
+                                    </span>
+                                    <span class="ps-3">Accepted file formats: PDF, DOC</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div><a class="btn btn_share_notes btn-primary"
+                                href="https://pxdraft.com/wrap/coursy/#">Share</a></div>
                     </div>
-                </li>
-            </ul>
-            <svg class="svg-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="1072" height="2" viewBox="0 0 1072 2" fill="none">
-                <path d="M0 1H1071.5" stroke="#F2F2F2" stroke-opacity="0.18" />
-            </svg>
-        </div>
-    </div>
+                    <img class="img-share-notes" src="Thesis-rafiki 1.svg">
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-dark text-light py-4 d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="mb-3 text-white">Quick Links</h5>
+                        <ul class="list-unstyled-footer ps-1">
+                            <li class="li-list"><a href="#" class="text-light">Home</a></li>
+                            <li class="li-list"><a href="#" class="text-light">About Us</a></li>
+                            <li class="li-list"><a href="#" class="text-light">Course</a></li>
+                            <li class="li-list"><a href="#" class="text-light">Notes</a></li>
+                            <li class="li-list"><a href="#" class="text-light">Contact Us</a></li>
+                            <li class="li-list"><a href="#" class="text-light">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="assets/bootstrap.bundle.min.js.download"></script>
+        <script src="assets/jquery-3.5.1.min.js.download"></script>
+        <script src="assets/theme-jquery.js.download"></script>
 </body>
 
 </html>
