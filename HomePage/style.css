@@ -39,25 +39,25 @@
     }
 }
 
+@media (max-width: 480px) {
+    .bca-text {
+        white-space: break-spaces !important;
+    }
+}
+
 @media (max-width: 768px) {
     .bca-text, .appl-text {
         font-size: 1.3rem;
+    }
+
+    .bca-text {
+        white-space: nowrap;
     }
 
     .intro-text {
         font-size: 0.785rem !important;
         width: auto;
         text-align: justify;
-    }
-
-    .btn_share_notes {
-        position: relative;
-        left: 33%;
-    }
-
-    .rm-button{
-        position: relative;
-        left: 25%;
     }
 
     .container {
@@ -92,7 +92,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .bca-text, .appl-text {
-        font-size: 3rem;
+        font-size: 1.8rem;
     }
 
     .intro-text {
