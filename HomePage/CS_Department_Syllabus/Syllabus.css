@@ -216,6 +216,13 @@ i, .navbar-toggler {
     .dropdown-item {
         color: #fff;
     }
+
+    .p-sem {
+        text-align: left !important;
+        padding-left: 29px !important;
+        margin-left: 0px !important;
+        width: auto !important;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
