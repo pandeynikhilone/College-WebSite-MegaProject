@@ -1,0 +1,17 @@
+.form-box {
+    max-width: 600px;
+    margin: auto;
+}
+
+body{
+    background-color: #F3F3FE;
+}
+
+span{display: flex;}
+
+@media(max-width:650px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}

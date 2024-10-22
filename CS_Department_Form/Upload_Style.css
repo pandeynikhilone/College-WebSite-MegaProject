@@ -1,0 +1,49 @@
+
+.dropzone {
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.dropzone.dragover {
+    background-color: #e9ecef;
+}
+
+.file-list {
+    margin-top: 20px;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.file-item span {
+    margin-right: 10px;
+}
+
+.file-item button {
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+.form-box {
+    max-width: 600px;
+    margin: auto;
+}
+
+body{
+    background-color: #F3F3FE;
+}
+
+span{display: flex;}
